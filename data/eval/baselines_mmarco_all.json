@@ -1,0 +1,183 @@
+{
+  "bm25": {
+    "eng-eng": {
+      "val": {
+        "mrr10": {
+          "dataset_revision": "6d039c4638c0ba3e46a9cb7b498b145e7edc6230",
+          "git_sha": "49893b7c3d62ddab77139feaffff447d77e3d3b2",
+          "report_path": "reports/eval_all/2026-08-24T152730Z__bm25__49893b7.json",
+          "splits_manifest_sha": "8083990a1161adf43e7792fb549db45ade50ba5726ea19c7790660d6a0f9a123",
+          "value": 0.8721027777777778
+        },
+        "ndcg10": {
+          "dataset_revision": "6d039c4638c0ba3e46a9cb7b498b145e7edc6230",
+          "git_sha": "49893b7c3d62ddab77139feaffff447d77e3d3b2",
+          "report_path": "reports/eval_all/2026-08-24T152730Z__bm25__49893b7.json",
+          "splits_manifest_sha": "8083990a1161adf43e7792fb549db45ade50ba5726ea19c7790660d6a0f9a123",
+          "value": 0.8900791870015782
+        },
+        "r100": {
+          "dataset_revision": "6d039c4638c0ba3e46a9cb7b498b145e7edc6230",
+          "git_sha": "49893b7c3d62ddab77139feaffff447d77e3d3b2",
+          "report_path": "reports/eval_all/2026-08-24T152730Z__bm25__49893b7.json",
+          "splits_manifest_sha": "8083990a1161adf43e7792fb549db45ade50ba5726ea19c7790660d6a0f9a123",
+          "value": 0.98125
+        }
+      }
+    },
+    "eng-spa": {
+      "val": {
+        "mrr10": {
+          "dataset_revision": "6d039c4638c0ba3e46a9cb7b498b145e7edc6230",
+          "git_sha": "49893b7c3d62ddab77139feaffff447d77e3d3b2",
+          "report_path": "reports/eval_all/2026-08-24T152730Z__bm25__49893b7.json",
+          "splits_manifest_sha": "8083990a1161adf43e7792fb549db45ade50ba5726ea19c7790660d6a0f9a123",
+          "value": 0.379225
+        },
+        "ndcg10": {
+          "dataset_revision": "6d039c4638c0ba3e46a9cb7b498b145e7edc6230",
+          "git_sha": "49893b7c3d62ddab77139feaffff447d77e3d3b2",
+          "report_path": "reports/eval_all/2026-08-24T152730Z__bm25__49893b7.json",
+          "splits_manifest_sha": "8083990a1161adf43e7792fb549db45ade50ba5726ea19c7790660d6a0f9a123",
+          "value": 0.39735041761328777
+        },
+        "r100": {
+          "dataset_revision": "6d039c4638c0ba3e46a9cb7b498b145e7edc6230",
+          "git_sha": "49893b7c3d62ddab77139feaffff447d77e3d3b2",
+          "report_path": "reports/eval_all/2026-08-24T152730Z__bm25__49893b7.json",
+          "splits_manifest_sha": "8083990a1161adf43e7792fb549db45ade50ba5726ea19c7790660d6a0f9a123",
+          "value": 0.49875
+        }
+      }
+    },
+    "spa-eng": {
+      "val": {
+        "mrr10": {
+          "dataset_revision": "6d039c4638c0ba3e46a9cb7b498b145e7edc6230",
+          "git_sha": "49893b7c3d62ddab77139feaffff447d77e3d3b2",
+          "report_path": "reports/eval_all/2026-08-24T152730Z__bm25__49893b7.json",
+          "splits_manifest_sha": "8083990a1161adf43e7792fb549db45ade50ba5726ea19c7790660d6a0f9a123",
+          "value": 0.28416210317460316
+        },
+        "ndcg10": {
+          "dataset_revision": "6d039c4638c0ba3e46a9cb7b498b145e7edc6230",
+          "git_sha": "49893b7c3d62ddab77139feaffff447d77e3d3b2",
+          "report_path": "reports/eval_all/2026-08-24T152730Z__bm25__49893b7.json",
+          "splits_manifest_sha": "8083990a1161adf43e7792fb549db45ade50ba5726ea19c7790660d6a0f9a123",
+          "value": 0.3044808062406957
+        },
+        "r100": {
+          "dataset_revision": "6d039c4638c0ba3e46a9cb7b498b145e7edc6230",
+          "git_sha": "49893b7c3d62ddab77139feaffff447d77e3d3b2",
+          "report_path": "reports/eval_all/2026-08-24T152730Z__bm25__49893b7.json",
+          "splits_manifest_sha": "8083990a1161adf43e7792fb549db45ade50ba5726ea19c7790660d6a0f9a123",
+          "value": 0.435
+        }
+      }
+    },
+    "spa-spa": {
+      "val": {
+        "mrr10": {
+          "dataset_revision": "6d039c4638c0ba3e46a9cb7b498b145e7edc6230",
+          "git_sha": "49893b7c3d62ddab77139feaffff447d77e3d3b2",
+          "report_path": "reports/eval_all/2026-08-24T152730Z__bm25__49893b7.json",
+          "splits_manifest_sha": "8083990a1161adf43e7792fb549db45ade50ba5726ea19c7790660d6a0f9a123",
+          "value": 0.7620573412698413
+        },
+        "ndcg10": {
+          "dataset_revision": "6d039c4638c0ba3e46a9cb7b498b145e7edc6230",
+          "git_sha": "49893b7c3d62ddab77139feaffff447d77e3d3b2",
+          "report_path": "reports/eval_all/2026-08-24T152730Z__bm25__49893b7.json",
+          "splits_manifest_sha": "8083990a1161adf43e7792fb549db45ade50ba5726ea19c7790660d6a0f9a123",
+          "value": 0.7820099429521723
+        },
+        "r100": {
+          "dataset_revision": "6d039c4638c0ba3e46a9cb7b498b145e7edc6230",
+          "git_sha": "49893b7c3d62ddab77139feaffff447d77e3d3b2",
+          "report_path": "reports/eval_all/2026-08-24T152730Z__bm25__49893b7.json",
+          "splits_manifest_sha": "8083990a1161adf43e7792fb549db45ade50ba5726ea19c7790660d6a0f9a123",
+          "value": 0.92875
+        }
+      }
+    }
+  },
+  "minicoil-v1": {
+    "eng-eng": {
+      "val": {
+        "mrr10": {
+          "dataset_revision": "6d039c4638c0ba3e46a9cb7b498b145e7edc6230",
+          "git_sha": "49893b7c3d62ddab77139feaffff447d77e3d3b2",
+          "report_path": "reports/eval_all/2026-08-24T152833Z__minicoil-v1__49893b7.json",
+          "splits_manifest_sha": "8083990a1161adf43e7792fb549db45ade50ba5726ea19c7790660d6a0f9a123",
+          "value": 0.8839664682539683
+        },
+        "ndcg10": {
+          "dataset_revision": "6d039c4638c0ba3e46a9cb7b498b145e7edc6230",
+          "git_sha": "49893b7c3d62ddab77139feaffff447d77e3d3b2",
+          "report_path": "reports/eval_all/2026-08-24T152833Z__minicoil-v1__49893b7.json",
+          "splits_manifest_sha": "8083990a1161adf43e7792fb549db45ade50ba5726ea19c7790660d6a0f9a123",
+          "value": 0.9000322736213278
+        },
+        "r100": {
+          "dataset_revision": "6d039c4638c0ba3e46a9cb7b498b145e7edc6230",
+          "git_sha": "49893b7c3d62ddab77139feaffff447d77e3d3b2",
+          "report_path": "reports/eval_all/2026-08-24T152833Z__minicoil-v1__49893b7.json",
+          "splits_manifest_sha": "8083990a1161adf43e7792fb549db45ade50ba5726ea19c7790660d6a0f9a123",
+          "value": 0.98325
+        }
+      }
+    }
+  },
+  "translate-bm25": {
+    "eng-spa": {
+      "val": {
+        "mrr10": {
+          "dataset_revision": "6d039c4638c0ba3e46a9cb7b498b145e7edc6230",
+          "git_sha": "49893b7c3d62ddab77139feaffff447d77e3d3b2",
+          "report_path": "reports/eval_all/2026-08-24T153059Z__translate-bm25__49893b7.json",
+          "splits_manifest_sha": "8083990a1161adf43e7792fb549db45ade50ba5726ea19c7790660d6a0f9a123",
+          "value": 0.6848525793650794
+        },
+        "ndcg10": {
+          "dataset_revision": "6d039c4638c0ba3e46a9cb7b498b145e7edc6230",
+          "git_sha": "49893b7c3d62ddab77139feaffff447d77e3d3b2",
+          "report_path": "reports/eval_all/2026-08-24T153059Z__translate-bm25__49893b7.json",
+          "splits_manifest_sha": "8083990a1161adf43e7792fb549db45ade50ba5726ea19c7790660d6a0f9a123",
+          "value": 0.7103921148305802
+        },
+        "r100": {
+          "dataset_revision": "6d039c4638c0ba3e46a9cb7b498b145e7edc6230",
+          "git_sha": "49893b7c3d62ddab77139feaffff447d77e3d3b2",
+          "report_path": "reports/eval_all/2026-08-24T153059Z__translate-bm25__49893b7.json",
+          "splits_manifest_sha": "8083990a1161adf43e7792fb549db45ade50ba5726ea19c7790660d6a0f9a123",
+          "value": 0.889625
+        }
+      }
+    },
+    "spa-eng": {
+      "val": {
+        "mrr10": {
+          "dataset_revision": "6d039c4638c0ba3e46a9cb7b498b145e7edc6230",
+          "git_sha": "49893b7c3d62ddab77139feaffff447d77e3d3b2",
+          "report_path": "reports/eval_all/2026-08-24T153059Z__translate-bm25__49893b7.json",
+          "splits_manifest_sha": "8083990a1161adf43e7792fb549db45ade50ba5726ea19c7790660d6a0f9a123",
+          "value": 0.7376432539682539
+        },
+        "ndcg10": {
+          "dataset_revision": "6d039c4638c0ba3e46a9cb7b498b145e7edc6230",
+          "git_sha": "49893b7c3d62ddab77139feaffff447d77e3d3b2",
+          "report_path": "reports/eval_all/2026-08-24T153059Z__translate-bm25__49893b7.json",
+          "splits_manifest_sha": "8083990a1161adf43e7792fb549db45ade50ba5726ea19c7790660d6a0f9a123",
+          "value": 0.7611477402859556
+        },
+        "r100": {
+          "dataset_revision": "6d039c4638c0ba3e46a9cb7b498b145e7edc6230",
+          "git_sha": "49893b7c3d62ddab77139feaffff447d77e3d3b2",
+          "report_path": "reports/eval_all/2026-08-24T153059Z__translate-bm25__49893b7.json",
+          "splits_manifest_sha": "8083990a1161adf43e7792fb549db45ade50ba5726ea19c7790660d6a0f9a123",
+          "value": 0.9118333333333334
+        }
+      }
+    }
+  }
+}

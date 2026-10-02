@@ -1,0 +1,32 @@
+{
+  "comparator_report": "reports/eval_phase2/2026-06-14T005754Z__translate-bm25__e70d0d4.json",
+  "metrics": {
+    "mrr@10": {
+      "ci_high": -0.054946756001251144,
+      "ci_low": -0.08470866076315593,
+      "decision": "loss",
+      "delta": -0.0700021747204629,
+      "n_queries": 3248,
+      "p_value": 0.000999000999000999
+    },
+    "ndcg@10": {
+      "ci_high": -0.0480008447628619,
+      "ci_low": -0.07628443417263175,
+      "decision": "loss",
+      "delta": -0.062309196803956655,
+      "n_queries": 3248,
+      "p_value": 0.000999000999000999
+    },
+    "r@100": {
+      "ci_high": 0.020884646962233168,
+      "ci_low": 0.0032840722495894904,
+      "decision": "win",
+      "delta": 0.012058702791461411,
+      "n_queries": 3248,
+      "p_value": 0.004995004995004995
+    }
+  },
+  "pair": "spa-eng",
+  "split": "test",
+  "v2_report": "reports/eval_phase2/2026-06-18T023249Z__minicoil-v2__703b5f5.json"
+}

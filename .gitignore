@@ -1,0 +1,39 @@
+# Python-generated files
+__pycache__/
+*.py[oc]
+build/
+dist/
+wheels/
+*.egg-info
+
+# Virtual environments
+.venv
+.env
+
+# Data artifacts (large files)
+data/
+eval_cache/
+
+# Tool caches
+.mypy_cache/
+.pytest_cache/
+.ruff_cache/
+
+# Tool configs (local only)
+.codex/
+.ml-ralph/
+.vscode/
+.claude/settings.local.json
+
+# Design files
+*.pen
+
+# Session/tool scratch
+.DS_Store
+.pi-subagents/
+.superpowers/
+artifacts/
+pi-session-*.html
+
+# Golden RNG snapshot captured locally by scripts/perf/validate_sampler_rng.py
+scripts/perf/sampler_rng_golden.pkl

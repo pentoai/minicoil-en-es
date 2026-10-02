@@ -1,0 +1,120 @@
+{
+  "command": "minicoil eval run minicoil-v2 --dataset mmarco --split test --splits-dir data/eval/splits_mmarco_phase2 --baselines-path data/eval/baselines_mmarco_phase2.json --reports-dir reports/eval_phase2 --rebuild",
+  "dataset": {
+    "name": "mmarco",
+    "revision": "6d039c4638c0ba3e46a9cb7b498b145e7edc6230"
+  },
+  "dirty": true,
+  "git_sha": "703b5f52998f66fe95e2904ae82912830c75c7b6",
+  "pairs": {
+    "eng-eng/test": {
+      "has_full_rankings": false,
+      "has_rank_digest": true,
+      "metrics": {
+        "mrr@10": {
+          "matches_reported": true,
+          "per_query_count": 3491,
+          "per_query_mean": 0.8849540541892303,
+          "reported_mean": 0.8849540541892303
+        },
+        "ndcg@10": {
+          "matches_reported": true,
+          "per_query_count": 3491,
+          "per_query_mean": 0.9016093373576876,
+          "reported_mean": 0.9016093373576876
+        },
+        "r@100": {
+          "matches_reported": true,
+          "per_query_count": 3491,
+          "per_query_mean": 0.9947484006492886,
+          "reported_mean": 0.9947484006492886
+        }
+      },
+      "n_queries": 3491
+    },
+    "eng-spa/test": {
+      "has_full_rankings": false,
+      "has_rank_digest": true,
+      "metrics": {
+        "mrr@10": {
+          "matches_reported": true,
+          "per_query_count": 3145,
+          "per_query_mean": 0.6975303454715219,
+          "reported_mean": 0.6975303454715219
+        },
+        "ndcg@10": {
+          "matches_reported": true,
+          "per_query_count": 3145,
+          "per_query_mean": 0.7301771221601674,
+          "reported_mean": 0.7301771221601674
+        },
+        "r@100": {
+          "matches_reported": true,
+          "per_query_count": 3145,
+          "per_query_mean": 0.9611022787493376,
+          "reported_mean": 0.9611022787493376
+        }
+      },
+      "n_queries": 3145
+    },
+    "spa-eng/test": {
+      "has_full_rankings": false,
+      "has_rank_digest": true,
+      "metrics": {
+        "mrr@10": {
+          "matches_reported": true,
+          "per_query_count": 3248,
+          "per_query_mean": 0.7041242718351709,
+          "reported_mean": 0.7041242718351709
+        },
+        "ndcg@10": {
+          "matches_reported": true,
+          "per_query_count": 3248,
+          "per_query_mean": 0.7358664148117897,
+          "reported_mean": 0.7358664148117897
+        },
+        "r@100": {
+          "matches_reported": true,
+          "per_query_count": 3248,
+          "per_query_mean": 0.9608477011494253,
+          "reported_mean": 0.9608477011494253
+        }
+      },
+      "n_queries": 3248
+    },
+    "spa-spa/test": {
+      "has_full_rankings": false,
+      "has_rank_digest": true,
+      "metrics": {
+        "mrr@10": {
+          "matches_reported": true,
+          "per_query_count": 3341,
+          "per_query_mean": 0.8314442258994789,
+          "reported_mean": 0.8314442258994789
+        },
+        "ndcg@10": {
+          "matches_reported": true,
+          "per_query_count": 3341,
+          "per_query_mean": 0.8524386487977794,
+          "reported_mean": 0.8524386487977794
+        },
+        "r@100": {
+          "matches_reported": true,
+          "per_query_count": 3341,
+          "per_query_mean": 0.9866307492766637,
+          "reported_mean": 0.9866307492766637
+        }
+      },
+      "n_queries": 3341
+    }
+  },
+  "report_path": "reports/eval_phase2/2026-06-18T023249Z__minicoil-v2__703b5f5.json",
+  "retriever": "minicoil-v2",
+  "splits_manifest_sha": "2182c95da35f0d546607391524f66e7634a3069177af01aca0f86d2987603fe4",
+  "warnings": [
+    "eng-eng/test has no full rankings, cannot independently recompute from qrels",
+    "eng-spa/test has no full rankings, cannot independently recompute from qrels",
+    "spa-eng/test has no full rankings, cannot independently recompute from qrels",
+    "spa-spa/test has no full rankings, cannot independently recompute from qrels"
+  ]
+}

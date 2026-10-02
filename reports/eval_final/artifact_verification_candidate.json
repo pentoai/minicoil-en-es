@@ -1,0 +1,29 @@
+{
+  "conflict_marker_files": [],
+  "errors": [],
+  "git_status": [
+    " M tests/eval/__init__.py",
+    "?? .superpowers/",
+    "?? docs/eval_validation_protocol.md",
+    "?? docs/superpowers/plans/2026-06-30-eval-legitimacy-validation.md",
+    "?? scripts/eval/paired_significance.py",
+    "?? scripts/eval/recompute_metrics.py",
+    "?? scripts/eval/verify_eval_artifacts.py",
+    "?? tests/eval/test_paired_significance.py",
+    "?? tests/eval/test_recompute_metrics.py",
+    "?? tests/eval/test_verify_eval_artifacts.py"
+  ],
+  "reports": [
+    "reports/eval_phase2/2026-06-18T023249Z__minicoil-v2__703b5f5.json",
+    "reports/eval_phase2/2026-06-14T005143Z__minicoil-v1__e70d0d4.json",
+    "reports/eval_phase2/2026-06-14T005754Z__translate-bm25__e70d0d4.json",
+    "reports/eval_phase2/2026-06-14T005123Z__bm25__e70d0d4.json"
+  ],
+  "status": "pass",
+  "warnings": [
+    "reports/eval_phase2/2026-06-18T023249Z__minicoil-v2__703b5f5.json is marked dirty",
+    "reports/eval_phase2/2026-06-14T005143Z__minicoil-v1__e70d0d4.json is marked dirty",
+    "reports/eval_phase2/2026-06-14T005754Z__translate-bm25__e70d0d4.json is marked dirty",
+    "reports/eval_phase2/2026-06-14T005123Z__bm25__e70d0d4.json is marked dirty"
+  ]
+}

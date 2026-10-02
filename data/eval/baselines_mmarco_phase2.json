@@ -1,0 +1,344 @@
+{
+  "bm25": {
+    "eng-eng": {
+      "test": {
+        "mrr10": {
+          "dataset_revision": "6d039c4638c0ba3e46a9cb7b498b145e7edc6230",
+          "git_sha": "e70d0d4df8811d98a5201e31604aeb719775ccf9",
+          "report_path": "reports/eval_phase2/2026-06-14T005123Z__bm25__e70d0d4.json",
+          "splits_manifest_sha": "2182c95da35f0d546607391524f66e7634a3069177af01aca0f86d2987603fe4",
+          "value": 0.8804868982826588
+        },
+        "ndcg10": {
+          "dataset_revision": "6d039c4638c0ba3e46a9cb7b498b145e7edc6230",
+          "git_sha": "e70d0d4df8811d98a5201e31604aeb719775ccf9",
+          "report_path": "reports/eval_phase2/2026-06-14T005123Z__bm25__e70d0d4.json",
+          "splits_manifest_sha": "2182c95da35f0d546607391524f66e7634a3069177af01aca0f86d2987603fe4",
+          "value": 0.8982317964497711
+        },
+        "r100": {
+          "dataset_revision": "6d039c4638c0ba3e46a9cb7b498b145e7edc6230",
+          "git_sha": "e70d0d4df8811d98a5201e31604aeb719775ccf9",
+          "report_path": "reports/eval_phase2/2026-06-14T005123Z__bm25__e70d0d4.json",
+          "splits_manifest_sha": "2182c95da35f0d546607391524f66e7634a3069177af01aca0f86d2987603fe4",
+          "value": 0.9913348610713263
+        }
+      },
+      "val": {
+        "mrr10": {
+          "dataset_revision": "6d039c4638c0ba3e46a9cb7b498b145e7edc6230",
+          "git_sha": "e70d0d4df8811d98a5201e31604aeb719775ccf9",
+          "report_path": "reports/eval_phase2/2026-06-14T002603Z__bm25__e70d0d4.json",
+          "splits_manifest_sha": "2182c95da35f0d546607391524f66e7634a3069177af01aca0f86d2987603fe4",
+          "value": 0.8817426587301588
+        },
+        "ndcg10": {
+          "dataset_revision": "6d039c4638c0ba3e46a9cb7b498b145e7edc6230",
+          "git_sha": "e70d0d4df8811d98a5201e31604aeb719775ccf9",
+          "report_path": "reports/eval_phase2/2026-06-14T002603Z__bm25__e70d0d4.json",
+          "splits_manifest_sha": "2182c95da35f0d546607391524f66e7634a3069177af01aca0f86d2987603fe4",
+          "value": 0.8998600707751139
+        },
+        "r100": {
+          "dataset_revision": "6d039c4638c0ba3e46a9cb7b498b145e7edc6230",
+          "git_sha": "e70d0d4df8811d98a5201e31604aeb719775ccf9",
+          "report_path": "reports/eval_phase2/2026-06-14T002603Z__bm25__e70d0d4.json",
+          "splits_manifest_sha": "2182c95da35f0d546607391524f66e7634a3069177af01aca0f86d2987603fe4",
+          "value": 0.9908333333333333
+        }
+      }
+    },
+    "eng-spa": {
+      "test": {
+        "mrr10": {
+          "dataset_revision": "6d039c4638c0ba3e46a9cb7b498b145e7edc6230",
+          "git_sha": "e70d0d4df8811d98a5201e31604aeb719775ccf9",
+          "report_path": "reports/eval_phase2/2026-06-14T005123Z__bm25__e70d0d4.json",
+          "splits_manifest_sha": "2182c95da35f0d546607391524f66e7634a3069177af01aca0f86d2987603fe4",
+          "value": 0.32760213995508114
+        },
+        "ndcg10": {
+          "dataset_revision": "6d039c4638c0ba3e46a9cb7b498b145e7edc6230",
+          "git_sha": "e70d0d4df8811d98a5201e31604aeb719775ccf9",
+          "report_path": "reports/eval_phase2/2026-06-14T005123Z__bm25__e70d0d4.json",
+          "splits_manifest_sha": "2182c95da35f0d546607391524f66e7634a3069177af01aca0f86d2987603fe4",
+          "value": 0.34644040429155487
+        },
+        "r100": {
+          "dataset_revision": "6d039c4638c0ba3e46a9cb7b498b145e7edc6230",
+          "git_sha": "e70d0d4df8811d98a5201e31604aeb719775ccf9",
+          "report_path": "reports/eval_phase2/2026-06-14T005123Z__bm25__e70d0d4.json",
+          "splits_manifest_sha": "2182c95da35f0d546607391524f66e7634a3069177af01aca0f86d2987603fe4",
+          "value": 0.46603073661897193
+        }
+      },
+      "val": {
+        "mrr10": {
+          "dataset_revision": "6d039c4638c0ba3e46a9cb7b498b145e7edc6230",
+          "git_sha": "e70d0d4df8811d98a5201e31604aeb719775ccf9",
+          "report_path": "reports/eval_phase2/2026-06-14T002603Z__bm25__e70d0d4.json",
+          "splits_manifest_sha": "2182c95da35f0d546607391524f66e7634a3069177af01aca0f86d2987603fe4",
+          "value": 0.34721309523809524
+        },
+        "ndcg10": {
+          "dataset_revision": "6d039c4638c0ba3e46a9cb7b498b145e7edc6230",
+          "git_sha": "e70d0d4df8811d98a5201e31604aeb719775ccf9",
+          "report_path": "reports/eval_phase2/2026-06-14T002603Z__bm25__e70d0d4.json",
+          "splits_manifest_sha": "2182c95da35f0d546607391524f66e7634a3069177af01aca0f86d2987603fe4",
+          "value": 0.3680484461402265
+        },
+        "r100": {
+          "dataset_revision": "6d039c4638c0ba3e46a9cb7b498b145e7edc6230",
+          "git_sha": "e70d0d4df8811d98a5201e31604aeb719775ccf9",
+          "report_path": "reports/eval_phase2/2026-06-14T002603Z__bm25__e70d0d4.json",
+          "splits_manifest_sha": "2182c95da35f0d546607391524f66e7634a3069177af01aca0f86d2987603fe4",
+          "value": 0.4907916666666667
+        }
+      }
+    },
+    "spa-eng": {
+      "test": {
+        "mrr10": {
+          "dataset_revision": "6d039c4638c0ba3e46a9cb7b498b145e7edc6230",
+          "git_sha": "e70d0d4df8811d98a5201e31604aeb719775ccf9",
+          "report_path": "reports/eval_phase2/2026-06-14T005123Z__bm25__e70d0d4.json",
+          "splits_manifest_sha": "2182c95da35f0d546607391524f66e7634a3069177af01aca0f86d2987603fe4",
+          "value": 0.2528125977402455
+        },
+        "ndcg10": {
+          "dataset_revision": "6d039c4638c0ba3e46a9cb7b498b145e7edc6230",
+          "git_sha": "e70d0d4df8811d98a5201e31604aeb719775ccf9",
+          "report_path": "reports/eval_phase2/2026-06-14T005123Z__bm25__e70d0d4.json",
+          "splits_manifest_sha": "2182c95da35f0d546607391524f66e7634a3069177af01aca0f86d2987603fe4",
+          "value": 0.27354314222028586
+        },
+        "r100": {
+          "dataset_revision": "6d039c4638c0ba3e46a9cb7b498b145e7edc6230",
+          "git_sha": "e70d0d4df8811d98a5201e31604aeb719775ccf9",
+          "report_path": "reports/eval_phase2/2026-06-14T005123Z__bm25__e70d0d4.json",
+          "splits_manifest_sha": "2182c95da35f0d546607391524f66e7634a3069177af01aca0f86d2987603fe4",
+          "value": 0.4204125615763547
+        }
+      },
+      "val": {
+        "mrr10": {
+          "dataset_revision": "6d039c4638c0ba3e46a9cb7b498b145e7edc6230",
+          "git_sha": "e70d0d4df8811d98a5201e31604aeb719775ccf9",
+          "report_path": "reports/eval_phase2/2026-06-14T002603Z__bm25__e70d0d4.json",
+          "splits_manifest_sha": "2182c95da35f0d546607391524f66e7634a3069177af01aca0f86d2987603fe4",
+          "value": 0.2560198412698413
+        },
+        "ndcg10": {
+          "dataset_revision": "6d039c4638c0ba3e46a9cb7b498b145e7edc6230",
+          "git_sha": "e70d0d4df8811d98a5201e31604aeb719775ccf9",
+          "report_path": "reports/eval_phase2/2026-06-14T002603Z__bm25__e70d0d4.json",
+          "splits_manifest_sha": "2182c95da35f0d546607391524f66e7634a3069177af01aca0f86d2987603fe4",
+          "value": 0.27376360548538153
+        },
+        "r100": {
+          "dataset_revision": "6d039c4638c0ba3e46a9cb7b498b145e7edc6230",
+          "git_sha": "e70d0d4df8811d98a5201e31604aeb719775ccf9",
+          "report_path": "reports/eval_phase2/2026-06-14T002603Z__bm25__e70d0d4.json",
+          "splits_manifest_sha": "2182c95da35f0d546607391524f66e7634a3069177af01aca0f86d2987603fe4",
+          "value": 0.4145
+        }
+      }
+    },
+    "spa-spa": {
+      "test": {
+        "mrr10": {
+          "dataset_revision": "6d039c4638c0ba3e46a9cb7b498b145e7edc6230",
+          "git_sha": "e70d0d4df8811d98a5201e31604aeb719775ccf9",
+          "report_path": "reports/eval_phase2/2026-06-14T005123Z__bm25__e70d0d4.json",
+          "splits_manifest_sha": "2182c95da35f0d546607391524f66e7634a3069177af01aca0f86d2987603fe4",
+          "value": 0.7952505665540684
+        },
+        "ndcg10": {
+          "dataset_revision": "6d039c4638c0ba3e46a9cb7b498b145e7edc6230",
+          "git_sha": "e70d0d4df8811d98a5201e31604aeb719775ccf9",
+          "report_path": "reports/eval_phase2/2026-06-14T005123Z__bm25__e70d0d4.json",
+          "splits_manifest_sha": "2182c95da35f0d546607391524f66e7634a3069177af01aca0f86d2987603fe4",
+          "value": 0.8146685784967767
+        },
+        "r100": {
+          "dataset_revision": "6d039c4638c0ba3e46a9cb7b498b145e7edc6230",
+          "git_sha": "e70d0d4df8811d98a5201e31604aeb719775ccf9",
+          "report_path": "reports/eval_phase2/2026-06-14T005123Z__bm25__e70d0d4.json",
+          "splits_manifest_sha": "2182c95da35f0d546607391524f66e7634a3069177af01aca0f86d2987603fe4",
+          "value": 0.9547790082809539
+        }
+      },
+      "val": {
+        "mrr10": {
+          "dataset_revision": "6d039c4638c0ba3e46a9cb7b498b145e7edc6230",
+          "git_sha": "e70d0d4df8811d98a5201e31604aeb719775ccf9",
+          "report_path": "reports/eval_phase2/2026-06-14T002603Z__bm25__e70d0d4.json",
+          "splits_manifest_sha": "2182c95da35f0d546607391524f66e7634a3069177af01aca0f86d2987603fe4",
+          "value": 0.7655388888888889
+        },
+        "ndcg10": {
+          "dataset_revision": "6d039c4638c0ba3e46a9cb7b498b145e7edc6230",
+          "git_sha": "e70d0d4df8811d98a5201e31604aeb719775ccf9",
+          "report_path": "reports/eval_phase2/2026-06-14T002603Z__bm25__e70d0d4.json",
+          "splits_manifest_sha": "2182c95da35f0d546607391524f66e7634a3069177af01aca0f86d2987603fe4",
+          "value": 0.7897095250447996
+        },
+        "r100": {
+          "dataset_revision": "6d039c4638c0ba3e46a9cb7b498b145e7edc6230",
+          "git_sha": "e70d0d4df8811d98a5201e31604aeb719775ccf9",
+          "report_path": "reports/eval_phase2/2026-06-14T002603Z__bm25__e70d0d4.json",
+          "splits_manifest_sha": "2182c95da35f0d546607391524f66e7634a3069177af01aca0f86d2987603fe4",
+          "value": 0.9529166666666666
+        }
+      }
+    }
+  },
+  "minicoil-v1": {
+    "eng-eng": {
+      "test": {
+        "mrr10": {
+          "dataset_revision": "6d039c4638c0ba3e46a9cb7b498b145e7edc6230",
+          "git_sha": "e70d0d4df8811d98a5201e31604aeb719775ccf9",
+          "report_path": "reports/eval_phase2/2026-06-14T005143Z__minicoil-v1__e70d0d4.json",
+          "splits_manifest_sha": "2182c95da35f0d546607391524f66e7634a3069177af01aca0f86d2987603fe4",
+          "value": 0.8921107791918448
+        },
+        "ndcg10": {
+          "dataset_revision": "6d039c4638c0ba3e46a9cb7b498b145e7edc6230",
+          "git_sha": "e70d0d4df8811d98a5201e31604aeb719775ccf9",
+          "report_path": "reports/eval_phase2/2026-06-14T005143Z__minicoil-v1__e70d0d4.json",
+          "splits_manifest_sha": "2182c95da35f0d546607391524f66e7634a3069177af01aca0f86d2987603fe4",
+          "value": 0.9086837970518226
+        },
+        "r100": {
+          "dataset_revision": "6d039c4638c0ba3e46a9cb7b498b145e7edc6230",
+          "git_sha": "e70d0d4df8811d98a5201e31604aeb719775ccf9",
+          "report_path": "reports/eval_phase2/2026-06-14T005143Z__minicoil-v1__e70d0d4.json",
+          "splits_manifest_sha": "2182c95da35f0d546607391524f66e7634a3069177af01aca0f86d2987603fe4",
+          "value": 0.9925522772844457
+        }
+      },
+      "val": {
+        "mrr10": {
+          "dataset_revision": "6d039c4638c0ba3e46a9cb7b498b145e7edc6230",
+          "git_sha": "e70d0d4df8811d98a5201e31604aeb719775ccf9",
+          "report_path": "reports/eval_phase2/2026-06-14T002755Z__minicoil-v1__e70d0d4.json",
+          "splits_manifest_sha": "2182c95da35f0d546607391524f66e7634a3069177af01aca0f86d2987603fe4",
+          "value": 0.8916801587301587
+        },
+        "ndcg10": {
+          "dataset_revision": "6d039c4638c0ba3e46a9cb7b498b145e7edc6230",
+          "git_sha": "e70d0d4df8811d98a5201e31604aeb719775ccf9",
+          "report_path": "reports/eval_phase2/2026-06-14T002755Z__minicoil-v1__e70d0d4.json",
+          "splits_manifest_sha": "2182c95da35f0d546607391524f66e7634a3069177af01aca0f86d2987603fe4",
+          "value": 0.907626267341253
+        },
+        "r100": {
+          "dataset_revision": "6d039c4638c0ba3e46a9cb7b498b145e7edc6230",
+          "git_sha": "e70d0d4df8811d98a5201e31604aeb719775ccf9",
+          "report_path": "reports/eval_phase2/2026-06-14T002755Z__minicoil-v1__e70d0d4.json",
+          "splits_manifest_sha": "2182c95da35f0d546607391524f66e7634a3069177af01aca0f86d2987603fe4",
+          "value": 0.9926666666666667
+        }
+      }
+    }
+  },
+  "translate-bm25": {
+    "eng-spa": {
+      "test": {
+        "mrr10": {
+          "dataset_revision": "6d039c4638c0ba3e46a9cb7b498b145e7edc6230",
+          "git_sha": "e70d0d4df8811d98a5201e31604aeb719775ccf9",
+          "report_path": "reports/eval_phase2/2026-06-14T005754Z__translate-bm25__e70d0d4.json",
+          "splits_manifest_sha": "2182c95da35f0d546607391524f66e7634a3069177af01aca0f86d2987603fe4",
+          "value": 0.702808817220582
+        },
+        "ndcg10": {
+          "dataset_revision": "6d039c4638c0ba3e46a9cb7b498b145e7edc6230",
+          "git_sha": "e70d0d4df8811d98a5201e31604aeb719775ccf9",
+          "report_path": "reports/eval_phase2/2026-06-14T005754Z__translate-bm25__e70d0d4.json",
+          "splits_manifest_sha": "2182c95da35f0d546607391524f66e7634a3069177af01aca0f86d2987603fe4",
+          "value": 0.7297355040339629
+        },
+        "r100": {
+          "dataset_revision": "6d039c4638c0ba3e46a9cb7b498b145e7edc6230",
+          "git_sha": "e70d0d4df8811d98a5201e31604aeb719775ccf9",
+          "report_path": "reports/eval_phase2/2026-06-14T005754Z__translate-bm25__e70d0d4.json",
+          "splits_manifest_sha": "2182c95da35f0d546607391524f66e7634a3069177af01aca0f86d2987603fe4",
+          "value": 0.9307366189719131
+        }
+      },
+      "val": {
+        "mrr10": {
+          "dataset_revision": "6d039c4638c0ba3e46a9cb7b498b145e7edc6230",
+          "git_sha": "e70d0d4df8811d98a5201e31604aeb719775ccf9",
+          "report_path": "reports/eval_phase2/2026-06-14T003813Z__translate-bm25__e70d0d4.json",
+          "splits_manifest_sha": "2182c95da35f0d546607391524f66e7634a3069177af01aca0f86d2987603fe4",
+          "value": 0.717014880952381
+        },
+        "ndcg10": {
+          "dataset_revision": "6d039c4638c0ba3e46a9cb7b498b145e7edc6230",
+          "git_sha": "e70d0d4df8811d98a5201e31604aeb719775ccf9",
+          "report_path": "reports/eval_phase2/2026-06-14T003813Z__translate-bm25__e70d0d4.json",
+          "splits_manifest_sha": "2182c95da35f0d546607391524f66e7634a3069177af01aca0f86d2987603fe4",
+          "value": 0.7407432276576765
+        },
+        "r100": {
+          "dataset_revision": "6d039c4638c0ba3e46a9cb7b498b145e7edc6230",
+          "git_sha": "e70d0d4df8811d98a5201e31604aeb719775ccf9",
+          "report_path": "reports/eval_phase2/2026-06-14T003813Z__translate-bm25__e70d0d4.json",
+          "splits_manifest_sha": "2182c95da35f0d546607391524f66e7634a3069177af01aca0f86d2987603fe4",
+          "value": 0.9185416666666667
+        }
+      }
+    },
+    "spa-eng": {
+      "test": {
+        "mrr10": {
+          "dataset_revision": "6d039c4638c0ba3e46a9cb7b498b145e7edc6230",
+          "git_sha": "e70d0d4df8811d98a5201e31604aeb719775ccf9",
+          "report_path": "reports/eval_phase2/2026-06-14T005754Z__translate-bm25__e70d0d4.json",
+          "splits_manifest_sha": "2182c95da35f0d546607391524f66e7634a3069177af01aca0f86d2987603fe4",
+          "value": 0.7741264465556338
+        },
+        "ndcg10": {
+          "dataset_revision": "6d039c4638c0ba3e46a9cb7b498b145e7edc6230",
+          "git_sha": "e70d0d4df8811d98a5201e31604aeb719775ccf9",
+          "report_path": "reports/eval_phase2/2026-06-14T005754Z__translate-bm25__e70d0d4.json",
+          "splits_manifest_sha": "2182c95da35f0d546607391524f66e7634a3069177af01aca0f86d2987603fe4",
+          "value": 0.7981756116157463
+        },
+        "r100": {
+          "dataset_revision": "6d039c4638c0ba3e46a9cb7b498b145e7edc6230",
+          "git_sha": "e70d0d4df8811d98a5201e31604aeb719775ccf9",
+          "report_path": "reports/eval_phase2/2026-06-14T005754Z__translate-bm25__e70d0d4.json",
+          "splits_manifest_sha": "2182c95da35f0d546607391524f66e7634a3069177af01aca0f86d2987603fe4",
+          "value": 0.9487889983579638
+        }
+      },
+      "val": {
+        "mrr10": {
+          "dataset_revision": "6d039c4638c0ba3e46a9cb7b498b145e7edc6230",
+          "git_sha": "e70d0d4df8811d98a5201e31604aeb719775ccf9",
+          "report_path": "reports/eval_phase2/2026-06-14T003813Z__translate-bm25__e70d0d4.json",
+          "splits_manifest_sha": "2182c95da35f0d546607391524f66e7634a3069177af01aca0f86d2987603fe4",
+          "value": 0.7679541666666667
+        },
+        "ndcg10": {
+          "dataset_revision": "6d039c4638c0ba3e46a9cb7b498b145e7edc6230",
+          "git_sha": "e70d0d4df8811d98a5201e31604aeb719775ccf9",
+          "report_path": "reports/eval_phase2/2026-06-14T003813Z__translate-bm25__e70d0d4.json",
+          "splits_manifest_sha": "2182c95da35f0d546607391524f66e7634a3069177af01aca0f86d2987603fe4",
+          "value": 0.7928333074647302
+        },
+        "r100": {
+          "dataset_revision": "6d039c4638c0ba3e46a9cb7b498b145e7edc6230",
+          "git_sha": "e70d0d4df8811d98a5201e31604aeb719775ccf9",
+          "report_path": "reports/eval_phase2/2026-06-14T003813Z__translate-bm25__e70d0d4.json",
+          "splits_manifest_sha": "2182c95da35f0d546607391524f66e7634a3069177af01aca0f86d2987603fe4",
+          "value": 0.9575
+        }
+      }
+    }
+  }
+}

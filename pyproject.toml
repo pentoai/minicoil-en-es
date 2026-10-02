@@ -1,0 +1,74 @@
+[project]
+name = "minicoil-v2"
+version = "0.1.0"
+description = "Sparse multilingual embeddings for cross-lingual retrieval using per-concept linear projections on mE5-small"
+readme = "README.md"
+license = "CC-BY-NC-4.0"
+license-files = ["LICENSE", "THIRD_PARTY_NOTICES.md"]
+authors = [
+    { email = "jsotelo@pento.ai" },
+    { email = "jcampo@pento.ai" },
+]
+requires-python = ">=3.12"
+dependencies = [
+    "datasets>=4.7.0",
+    "fastembed>=0.7.0",
+    "huggingface-hub>=1.0",
+    "loguru>=0.7.0",
+    "matplotlib>=3.10.9",
+    "mmh3>=4.0",
+    "networkx>=3.0",
+    "numpy>=2.4.3",
+    "pandas-stubs>=3.0.0.260204",
+    "pydantic>=2.0",
+    "pydantic-settings>=2.0",
+    "qdrant-client>=1.12.0",
+    "scikit-learn>=1.8.0",
+    "safetensors>=0.6",
+    "scipy>=1.15.0",
+    "sentence-transformers>=5.2.3",
+    "simplemma>=1.1",
+    "torch>=2.10.0",
+    "tqdm>=4.67.0",
+    "transformers>=5.3.0",
+    "typer>=0.15.0",
+    "umap-learn>=0.5.12",
+]
+
+[project.scripts]
+minicoil = "minicoil_v2.cli:app"
+
+[dependency-groups]
+dev = [
+    "mypy>=1.0",
+    "pytest>=8.0",
+    "pytest-cov>=5.0",
+    "ruff>=0.9.0",
+]
+
+[build-system]
+requires = ["uv_build>=0.8.15,<0.9.0"]
+build-backend = "uv_build"
+
+[tool.ruff]
+target-version = "py312"
+line-length = 100
+
+[tool.ruff.lint]
+select = ["E", "F", "I", "UP", "B", "SIM"]
+
+[tool.ruff.lint.per-file-ignores]
+# Frozen research snapshots: kept as they were run, only auto-formatted.
+"research/diagnostics/*" = ["E501", "B905", "SIM"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+pythonpath = ["src"]
+markers = [
+    "slow: tests that load transformer models or hit the network",
+]
+
+[tool.mypy]
+python_version = "3.12"
+warn_return_any = true
+warn_unused_configs = true

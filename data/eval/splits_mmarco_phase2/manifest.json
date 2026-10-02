@@ -1,0 +1,63 @@
+{
+  "dataset_name": "mmarco",
+  "dataset_revision": "6d039c4638c0ba3e46a9cb7b498b145e7edc6230",
+  "dev_size": 200,
+  "files": {
+    "mmarco_eng-eng_dev.json": {
+      "n": 200,
+      "sha256": "e298680d1dcc6a9b448dd18a658ff11e71d9b13d842a4354177af3d6a963bdf2"
+    },
+    "mmarco_eng-eng_test.json": {
+      "n": 3491,
+      "sha256": "aef7ebaf492548379747a9788dca27553b980c6c1ea5da4e7d5eeffad00b1373"
+    },
+    "mmarco_eng-eng_val.json": {
+      "n": 2000,
+      "sha256": "e87c53c8e7a5eebbff22a269734883b4f5724681b3d4b109ffa405150fe7aeca"
+    },
+    "mmarco_eng-spa_dev.json": {
+      "n": 200,
+      "sha256": "ce6278d3199acb25a3a4100ef48f1d91b04104934d40892748fae4af08150ad7"
+    },
+    "mmarco_eng-spa_test.json": {
+      "n": 3145,
+      "sha256": "0f02d38dfaefb7b94f8afbdda09084a4f69f4340dfba42e52b6ab2c6444f9a5b"
+    },
+    "mmarco_eng-spa_val.json": {
+      "n": 2000,
+      "sha256": "bf80f7992003c416b9b9265c4beb3907bef91eb4cb11ceca20c2f85f96c15ac9"
+    },
+    "mmarco_spa-eng_dev.json": {
+      "n": 200,
+      "sha256": "07835bd6a8792c58132c49b7d52b954d69351570b4014af94bc72d2658190197"
+    },
+    "mmarco_spa-eng_test.json": {
+      "n": 3248,
+      "sha256": "dbc167644f0330f462858b793787130e5c3d88c77033ba6a17c58af1ff80e2b0"
+    },
+    "mmarco_spa-eng_val.json": {
+      "n": 2000,
+      "sha256": "d35945e29fc152e0a7b90e4ed3a8a9a5fbabdfc3a7e3136aabe1f5ffac73afb9"
+    },
+    "mmarco_spa-spa_dev.json": {
+      "n": 200,
+      "sha256": "a7bfcc0b8ca4e9d76b46461a50ce0e2578d3881e55aefc5d33376223c01d1b5c"
+    },
+    "mmarco_spa-spa_test.json": {
+      "n": 3341,
+      "sha256": "8fe17a363328d33bd5f7c7824e1466203c3d227b3234b19b0d569fb9b7f724cf"
+    },
+    "mmarco_spa-spa_val.json": {
+      "n": 2000,
+      "sha256": "57be198bc342b32f5928ccc07b039e50a4d2e850b735567c8807fde0b90ecec4"
+    }
+  },
+  "pairs": [
+    "eng-eng",
+    "spa-spa",
+    "eng-spa",
+    "spa-eng"
+  ],
+  "seed": 0,
+  "val_size": 2000
+}
